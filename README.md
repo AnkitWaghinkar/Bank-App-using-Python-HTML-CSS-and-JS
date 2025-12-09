@@ -36,7 +36,7 @@ Displays all logs stored in `transaction.txt`.
 
 ---
 
-## 🛠 Technologies Used
+## Technologies Used
 
 - **Python (Flask)**  
 - **HTML / CSS / JavaScript**  
@@ -44,7 +44,7 @@ Displays all logs stored in `transaction.txt`.
 
 ---
 
-Run Locally
+## Run Locally
 ### Install Dependencies
 pip install -r requirements.txt
 
@@ -56,7 +56,7 @@ Go to: http://127.0.0.1:5000/
 
 ---
 
-## 📝 Notes
+## Notes
 
 - All transactions are saved to `transaction.txt`
 <img width="980" height="629" alt="image" src="https://github.com/user-attachments/assets/e8fd504e-f362-45de-a61a-1c29f42cee99" />
