@@ -14,9 +14,9 @@ The project demonstrates how to send data from HTML to Python using Flask.
 
 ## 🌐 Live Demo (Deployed on Render)
 
-🔗 **Live Website:** https://banking-app-url-here.onrender.com/
+🔗 **Live Website:** https://bank-app-using-python-html-css-and-js.onrender.com
 
-###Screenshot 
+### Screenshot 
 <img width="1002" height="624" alt="image" src="https://github.com/user-attachments/assets/03c4a017-fbd6-4a0b-982a-c29f81049315" />
 
 ---
@@ -51,15 +51,17 @@ pip install -r requirements.txt
 ### Run Flask App
 python atm.py
 
-###Open in Browser
+### Open in Browser
 Go to: http://127.0.0.1:5000/
 
 ---
 
 ## 📝 Notes
 
-- All transactions are saved to `transaction.txt`  
-- Balance resets every time the server restarts (because it's in-memory)  
-- Made for learning Flask form handling and backend logic  
+- All transactions are saved to `transaction.txt`
+<img width="980" height="629" alt="image" src="https://github.com/user-attachments/assets/e8fd504e-f362-45de-a61a-1c29f42cee99" />
 
+- Balance resets to 1000 every time the server restarts (because it's in-memory)  
+- Made for learning Flask form handling and backend logic
+    
 ---
