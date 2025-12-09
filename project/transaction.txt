@@ -1,0 +1,14 @@
+Account History
+
+ Withdrew 50.0       Balance: 0.5 
+ Withdrew 50.0       Balance: 0.5 
+ Deposited 400.0     Balance: 450.5 
+ Deposited 5000.0    Balance: 5050.5 
+ Withdrew 50.0       Balance: 0.5 
+ Withdrew 0.5        Balance: 0.0 
+ Deposited 333333.0  Balance: 333333.0 
+ Deposited 2000.0    Balance: 3000.0 
+ Deposited 322.0     Balance: 3322.0 
+ Deposited 500.0     Balance: 3822.0 
+ Withdrew 200.0      Balance: 800.0 
+ Withdrew 256.0      Balance: 744.0 
