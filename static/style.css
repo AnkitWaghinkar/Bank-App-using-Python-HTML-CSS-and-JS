@@ -1,0 +1,147 @@
+:root{        
+    --text-dark: #1A1A1A;
+    --text-light: #FFFFFF;
+    --btn-primary: #7A5AF8;
+    --btn-primary-hover: #4013a1;
+    --btn-outline-hover: rgba(122, 90, 248, 0.1);
+    --bg-main: #FFFFFF;
+    --bg-light: #F8F4FF;
+    --bg-dark: #1F1F1F;
+    --border: #d9d2fb7a;
+}
+
+*{
+    padding: 0;
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+
+body{
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-image: url(pawel-czerwinski-1A_dO4TFKgM-unsplash.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.headin{
+    color: var(--bg-light);
+    font-size: 20px;
+    backdrop-filter: blur(10px);
+    padding: 2px 4px 2px 4px;
+    border-radius: 8px;
+    z-index: 1;
+}
+
+.container{
+    width: 90%;
+    max-width: 550px;
+    height: 350px;
+    background-color: rgba(255, 255, 255, 0.048);
+    backdrop-filter: blur(35px);
+    border-radius: 10px;
+    border: 1px solid var(--border);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 35px;
+    padding-block: 20px;
+    box-shadow: 8px 8px 10px 0 black,
+                -5px -5px 10px 0 rgba(42, 18, 65, 0.308);
+}
+
+.titleHead{
+    font-size: 16px;
+    color: var(--text-light);
+}
+
+.group{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+.group:nth-child(3),
+.group:last-child{
+    flex-direction: column;
+    gap: 5px;
+}
+
+input{
+    width: 200px;
+    outline: none;
+    border: none;
+    color: #d2d0d3;
+    padding: 8px 10px 8px 10px;
+    border-radius: 5px;
+    box-sizing: border-box;
+    transition: all 0.3s linear;
+    font-size: 16px;
+    box-shadow: inset 2.5px 2.5px 10px 0 black,
+                inset -2px -2px 10px 0 #9e7fe034;
+    background-color: transparent;
+    backdrop-filter: blur(10px);
+}
+
+label{
+    position: absolute;
+    left: 10px;
+    top: 11px;
+    color: gray;
+    transition: all 0.3s linear;
+}
+
+input:focus + label,
+input:not(:placeholder-shown) + label {
+    top: -19px;
+    left: 5px;
+    font-size: 14px;
+    color: var(--text-light);
+    background-color: transparent;
+    border-radius: 0.5rem;
+    transition: all 0.3s linear;
+}
+
+button{
+    padding: 10px;
+    border-radius: 8px;
+    outline: none;
+    font-size: 14px;
+    border: none;
+    box-shadow: 0px 5px 10px 0 black;
+    
+    transition: all 0.3s linear;
+    cursor: pointer;
+    color: var(--text-light);
+    background-color:  #302c33;
+}
+
+button:hover{
+    background-color: #6a637a;
+    box-shadow: 0px 5px 16px 0 black;
+    transform: translatey(-3px);
+}
+
+.btn{
+    background-color: var(--btn-primary-hover);
+    width: 100px;
+    margin-left: 5px;
+}
+
+.btn:hover{
+    background-color: var(--btn-primary);
+}
+
+#tBtn{
+    margin-left: 10px;
+}

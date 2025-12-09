@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Bank App</title>
+    <link rel="stylesheet" href="/static/style.css">
+</head>
+<body>
+
+    <p class="headin">Select an Operation</p>
+    <div class="container">
+        
+    <div class="group">
+        <form action="/withdraw" method="POST">
+            <input type="number" name="amount" placeholder="" id="withdraw">
+            <label for="withdraw">Withdraw Amount</label>
+            <button onclick="sendData('/withdraw')" type="submit" class="btn">Withdraw</button>
+        </form>
+    </div>
+
+    <div class="group">
+        <form action="/deposit" method="POST">
+            <input type="number" name="amount" placeholder="" id="deposit">
+            <label for="deposit">Deposit Amount</label>
+            <button onclick="sendData('/deposit')" type="submit" class="btn">Deposit</button>
+        </form>
+    </div>
+
+    <div class="group">
+        <p class="titleHead">Check Balance</p>
+        <form action="/balance">
+            <button onclick="checkBalance()" type="submit">Show Balance</button>
+        </form>
+    </div>
+
+    <div class="group">
+        <p class="titleHead">View Transaction Log</p>
+        <form action="/transaction">
+            <button onclick="loadTransactions()" type="submit" id="tBtn">Show Transactions</button>
+        </form>
+    </div>
+
+    <script src="/static/script.js"></script>
+</body>
+</html>
+
