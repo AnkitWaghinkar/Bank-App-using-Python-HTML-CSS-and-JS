@@ -12,9 +12,9 @@ The project demonstrates how to send data from HTML to Python using Flask.
 
 ---
 
-## 🌐 Live Demo (Deployed on Render)
+##  Live Demo (Deployed on Render)
 
-🔗 **Live Website:** https://bank-app-using-python-html-css-and-js.onrender.com
+**Live Website:** https://bank-app-using-python-html-css-and-js.onrender.com
 
 ### Screenshot 
 <img width="1002" height="624" alt="image" src="https://github.com/user-attachments/assets/03c4a017-fbd6-4a0b-982a-c29f81049315" />
