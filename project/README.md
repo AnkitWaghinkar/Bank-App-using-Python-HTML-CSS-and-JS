@@ -28,10 +28,10 @@ Ends the session.
 ---
 
 ## Future Improvements
--[X] Add a GUI or connect your existing HTML/CSS/JS frontend to this backend.
--[ ] Add a PIN-based login system.
--[ ] Show timestamps in the transaction log.
--[ ] Prevent negative deposits/withdrawals inside class logic.
--[ ] Create multiple accounts.
--[ ] Store history in a database.
+- [x] Add a GUI or connect your existing HTML/CSS/JS frontend to this backend.
+- [ ] Add a PIN-based login system.
+- [ ] Show timestamps in the transaction log.
+- [ ] Prevent negative deposits/withdrawals inside class logic.
+- [ ] Create multiple accounts.
+- [ ] Store history in a database.
 
