@@ -19,6 +19,7 @@ Instantly displays the current account balance.
 
 ### View transaction log
 Every deposit and withdrawal is written to `transaction.txt`.
+
 <img width="630" height="343" alt="image" src="https://github.com/user-attachments/assets/e8e837df-dca6-499e-a5ed-9077d43f8384" />
 
 ### Exit program
